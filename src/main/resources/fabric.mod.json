@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "totemswaphelper",
+	"version": "${version}",
+	"name": "Totem Swap Helper",
+	"description": "Client-side helper that keeps a Totem of Undying in your offhand for singleplayer/private-world use. Toggle with Right Shift or via the config screen.",
+	"authors": [
+		"You"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.totemswaphelper.TotemSwapHelperClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
